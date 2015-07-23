@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Prehistorical\\Landing\\": "src/"
+            "Prehistorical\\ImageFileLogic\\": "src/"
         }
     },
     "minimum-stability": "dev"
