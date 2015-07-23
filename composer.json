@@ -1,6 +1,6 @@
 {
     "name": "prehistorical/imagefilelogic",
-    "description": "Логика закачки и хранения картинок",
+    "description": "Логика закачки и хранения картинок, конфигурируемая",
     "keywords": [
         "landing"
     ],
