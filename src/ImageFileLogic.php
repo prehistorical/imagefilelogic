@@ -108,7 +108,7 @@ class ImageFileLogic {
             unlink($dir.'/'.$file);
         }
 
-//        //Поиск в папке resized
+//        //Поиск в папке resized удалить
 //        foreach (glob($dir.'/resized/'.$prefix.'*.*') as $file) {
 //
 //            if(is_dir($dir.'/resized/'.$file)) continue;

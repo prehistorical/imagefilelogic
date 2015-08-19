@@ -1,13 +1,10 @@
-<?php namespace Prehistorical\ImageFileLogic;
+<?php
+
+namespace Prehistorical\ImageFileLogic;
 
 use Illuminate\Support\ServiceProvider;
 
 class ImageFileLogicServiceProvider extends ServiceProvider {
-
-    /**
-     * @var bool
-     */
-    protected $defer = true;
 
     /**
      * Bootstrap the application services.
@@ -28,6 +25,7 @@ class ImageFileLogicServiceProvider extends ServiceProvider {
     public function register()
     {
         $this->app->make('Prehistorical\ImageFileLogic\ImageFileController');
+
         $this->app->singleton('Prehistorical\ImageFileLogic\ImageFileLogic', function($app)
         {
             return new \Prehistorical\ImageFileLogic\ImageFileLogic();

@@ -1,4 +1,6 @@
-<?php namespace Prehistorical\ImageFileLogic;
+<?php
+
+namespace Prehistorical\ImageFileLogic;
 
 use App\Http\Controllers\Controller;
 
